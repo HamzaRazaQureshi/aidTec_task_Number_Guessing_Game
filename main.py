@@ -35,7 +35,7 @@ def NumberGuessingGame():
 # Driver Code
 print("\n----------- Number Guessing Game! -----------")
 name = input("Enter Your Name: ")
-print("\n--------------- Welcome", name, "--------------")
+print("\n--------------- WELCOME", name.upper(), "--------------")
     
 while True:
     print("\nDate:", datetime.date.today())
@@ -52,4 +52,4 @@ while True:
     if play_again.lower() == "no":
         break
     
-print("\nThank you for playing!")
+print("\nThank you for playing!\n")
